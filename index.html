@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type= "text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+<body>
+<header> 
+    <nav class="header-container navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">  <img src="https://cdn.discordapp.com/attachments/751635046120554516/1019743975759949854/codoacodo.png" alt="Logo" width="60" height="24" class="d-inline-block align-text-top">Conf Bs As</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="items-menu collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviértete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+</header>
+  
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.discordapp.com/attachments/748709325937311824/1020131995596095519/Frame_1_2.png" class="d-block w-100" alt="MuseoAgua">
+        <div class="text-first carousel-caption d-none d-md-block">
+            <h5>Conf Bs As</h5>
+            <p class="texto-relleno">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a los miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+            <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+ <p><small>CONOCÉ A LOS</small></p> 
+ <p style="font-size:xx-large"><strong>ORADORES</strong></p>
+ 
+ 
+ <!--CARDS-->
+ <div class="cards-three row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class=" tarjetas card h-100">
+        <img src="https://cdn.discordapp.com/attachments/748709325937311824/1020105734291193856/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <button type="button" class="boton-Steve btn btn-warning"><p class="p-Steve fw-bold">JavaScript</p></button>
+        <button type="button" class="botondos-Steve btn btn-info"><p class="p-Steve fw-bold">React</p></button>
+        
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="p-text card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://cdn.discordapp.com/attachments/748709325937311824/1020105734517698650/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body"> 
+            <button type="button" class="boton-Steve btn btn-warning"><p class="p-Steve fw-bold">JavaScript</p></button>
+            <button type="button" class="botondos-Steve btn btn-info"><p class="p-Steve fw-bold">React</p></button>
+            <h5 class="card-title">Bill Gates</h5>
+          <p class="p-text card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://cdn.discordapp.com/attachments/748709325937311824/1020105734714839090/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <button type="button" class="boton-Steve btn btn-secondary"><p class="p-Steve fw-bold">Negocios</p></button>
+            <button type="button" class="botondos-Steve btn btn-danger"><p class="p-Steve fw-bold">Startups</p></button>
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="p-text card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!--Card de paisaje-->
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="https://cdn.discordapp.com/attachments/748709325937311824/1020117754528936067/honolulu.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-6">
+        <div class="card-paisaje card-body">
+          <h5 style= color:white class="card-title">Bs As- Octubre</h5>
+          <p style= color:white class="p-text lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>          <button type="button" class="btn btn-outline-light">Conocé más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p></p>
+ <p><small>CONVIÉRTETE EN</small></p> 
+ <p style="font-size:xx-large"><strong>ORADOR</strong></p>
+ <p>Anotate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+</body>
+</html>
+
+<!--Formulario-->
+<form class="user-form">
+  <div class="user-info">
+<div class="user-imput userfirstname mb-3">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+</div>
+<div class="user-imput userlastname mb-3">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+</div>
+</div>
+<div class="mb-3">
+  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué querés hablar?" rows="3"></textarea>
+  <p class="text-muted">
+    Recuerda incluir un titulo sobre tu charla
+  </p>
+  <div class="d-grid gap-2">
+    <button class="btn btn-success" type="button">Enviar</button>
+  </div>
+</div>
+</form>
+
+<!--Footer-->
+<footer>
+  <nav>
+<div class=" categorias1 d-flex flex-row mb-6">
+  <div class="catlarge categoría">Preguntas frecuentes</div>
+  <div class="categoría">Contáctanos</div>
+  <div class="categoría">Prensa</div>
+  <div class="categoría">Conferencias</div>
+  <div class="catlarge categoría">Términos y condiciones</div>
+  <div class="categoría">Privacidad</div>
+  <div class="categoría">Estudiantes</div>
+</div>
+</nav>
+</footer>
